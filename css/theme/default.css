@@ -28,10 +28,22 @@
 
 body{
   /*background-color: #433067;*/
-  background: url(../../bg.jpg) repeat-x 0 0 #a3caeb;
-  /*background-size: 100%;*/
+  background: url(../../bg-1.png) repeat-x center #000;
+  background-size: cover;
 }
+body:before{
+  content: "";
+  background: url(../../pontilhado.png) repeat 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 
+  }
+.destak{
+  color: #f9f111!important;
+}
 .reveal {
   font-family: "Lato", Times, "Times New Roman", serif;
   font-size: 36px;
@@ -56,16 +68,20 @@ body{
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #ffc60c;
+  color: #fb0707;
   font-family: "League Gothic", Impact, sans-serif;
-  line-height: 0.9em;
+  line-height: 1.2em;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.2);
 }
 
 .reveal h1 {
   text-shadow: 0 1px 0 #000, 0 2px 0 #000, 0 3px 0 #000, 0 4px 0 #000, 0 5px 0 #000, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15);
+}
+.reveal h1.sub,
+.reveal h2.sub{
+  color: #fff;
 }
 
 /*********************************************
@@ -73,7 +89,7 @@ body{
  *********************************************/
 .reveal a:not(.image) {
   color: #fff;
-  background: #000;
+  background: #fb0707;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
@@ -123,38 +139,38 @@ body{
  *********************************************/
 .reveal .controls div.left,
 .reveal .controls div.left.enabled {
-  border-right-color: #13daec;
+  border-right-color: #fb0707;
 }
 
 .reveal .controls div.right,
 .reveal .controls div.right.enabled {
-  border-left-color: #13daec;
+  border-left-color: #fb0707;
 }
 
 .reveal .controls div.up,
 .reveal .controls div.up.enabled {
-  border-bottom-color: #13daec;
+  border-bottom-color: #fb0707;
 }
 
 .reveal .controls div.down,
 .reveal .controls div.down.enabled {
-  border-top-color: #13daec;
+  border-top-color: #fb0707;
 }
 
 .reveal .controls div.left.enabled:hover {
-  border-right-color: #71e9f4;
+  border-right-color: #a60606;
 }
 
 .reveal .controls div.right.enabled:hover {
-  border-left-color: #71e9f4;
+  border-left-color: #a60606;
 }
 
 .reveal .controls div.up.enabled:hover {
-  border-bottom-color: #71e9f4;
+  border-bottom-color: #a60606;
 }
 
 .reveal .controls div.down.enabled:hover {
-  border-top-color: #71e9f4;
+  border-top-color: #a60606;
 }
 
 /*********************************************
@@ -165,7 +181,7 @@ body{
 }
 
 .reveal .progress span {
-  background: #13daec;
+  background: #fb0707;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
@@ -187,7 +203,7 @@ input{
 }
 label{display: block; margin-bottom: 10px;}
 input:focus{
-	border-color: #ffc60c;
+	border-color: red;
 }
 .no-text{ visibility: hidden;}
 .help{
@@ -201,7 +217,7 @@ input:focus{
 .logo-webbr{
   position: absolute;
   bottom: 40px;
-  left: 20px;
+  left: 100px;
   width: 8%;
 }
 
