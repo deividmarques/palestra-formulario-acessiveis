@@ -1,10 +1,10 @@
 
 ## Descrição
-Palestra realizada no dia 22 de setembro de 2015 para o evento Webbr. 
+Palestra realizada no dia 23 de setembro de 2016 para o evento RubyConfBr 2016. 
 
-**Título:** Acessibilidade não é Caridade.
+**Título:** Criando formulários incríveis.
 
-Nessa apresentação foi usada Reveal.js
+Essa apresentação foi usada Reveal.js
 
 # reveal.js
 
