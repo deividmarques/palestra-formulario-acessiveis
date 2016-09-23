@@ -4,6 +4,8 @@ Palestra realizada no dia 23 de setembro de 2016 para o evento RubyConfBr 2016.
 
 **Título:** Criando formulários incríveis.
 
+[Veja os slides](https://deividmarques.github.io/RubyConfBr2016/)
+
 Essa apresentação foi usada Reveal.js
 
 # reveal.js
