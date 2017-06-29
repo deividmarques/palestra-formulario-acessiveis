@@ -68,7 +68,7 @@ body:before{
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #fb0707;
+  color: #ffc60c;
   font-family: "League Gothic", Impact, sans-serif;
   line-height: 1.2em;
   letter-spacing: 0.02em;
@@ -88,8 +88,8 @@ body:before{
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
-  color: #fff;
-  background: #fb0707;
+  color: #000;
+  background: #ffc60c;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
