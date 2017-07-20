@@ -555,7 +555,7 @@ li{
 	display: block;
 	z-index: 11;
 	opacity: 1;
-	background-color: rgba(90,90,90,.1);
+	background-color: rgba(0,0,0,.8);
 	box-shadow: 0 0 8px 1px rgba(204,63,63,.3);
 	/*background-color: rgba(36,38,43,.5);*/
 	padding: 20px;

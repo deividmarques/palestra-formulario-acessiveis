@@ -28,7 +28,7 @@
 
 body{
   /*background-color: #433067;*/
-  background: url(../../bg-1.png) repeat-x center #000;
+  background: url(../../bg.png) repeat-x center #000;
   background-size: cover;
 }
 body:before{
