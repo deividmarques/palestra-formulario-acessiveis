@@ -207,7 +207,7 @@ input:focus{
 }
 .no-text{ visibility: hidden;}
 .help{
-	color: red; 
+	color: #ffc60c; 
 	display: block;
 	font-size: 24px !important;
 }
